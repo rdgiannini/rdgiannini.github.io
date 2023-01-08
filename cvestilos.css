@@ -1,0 +1,61 @@
+/* Aplicar fuentes */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray
+  }
+  
+  * {
+    color: rgb(50, 155, 68);
+  }
+
+  /* Estilos para la barra de navegación */
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(143, 239, 164);
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Estilos para la sección de información personal */
+  
+  #informacion-personal img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+        
+  }
+  
+  #informacion-personal li {
+    font-size: 16px;
+    color: rgb(2, 48, 26);
+    padding: 0;
+  }
+  
+  /* Estilos para la sección de experiencia */
+  #experiencia ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #experiencia h3 {
+    margin: 10px 0;
+    color: rgb(171, 183, 7);
+  }
+  
+  /* Estilos para la sección de habilidades */
+   
+  #habilidades ul {
+    border: 1px solid rgb(47, 255, 0);
+    padding: 20px;
+    background-color: rgb(143, 239, 164);
+  }
+  
+  
